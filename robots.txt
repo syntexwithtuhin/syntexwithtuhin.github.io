@@ -1,0 +1,23 @@
+# Block ChatGPT and OpenAI crawlers
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# Block Common Crawl and other AI scrapers
+User-agent: CCBot
+Disallow: /
+
+User-agent: AnthropicAI
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+# Block everything else from indexing
+User-agent: *
+Disallow: /
